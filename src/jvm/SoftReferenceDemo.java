@@ -28,7 +28,7 @@ public class SoftReferenceDemo {
         System.out.println(softReference.get());
         System.out.println("===========");
         o1 = null;
-        System.gc();
+//        System.gc();
 
         try {
             byte[] bytes = new byte[30 * 1024 * 1024];
